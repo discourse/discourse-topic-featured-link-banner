@@ -1,0 +1,6 @@
+en:
+  theme_metadata:
+    description: "Display a banner containing a topic's featured link"
+  featured_link_banner:
+    text_before_link: "This is the featured link:"
+    text_after_link: "Have a nice day"

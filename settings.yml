@@ -1,0 +1,11 @@
+background_color:
+  default: var(--tertiary-very-low)
+
+text_color:
+  default: var(--primary)
+
+link_color:
+  default: var(--tertiary)
+
+show_on_mobile:
+  default: true

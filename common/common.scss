@@ -1,0 +1,41 @@
+.featured-topic-link-connector {
+  position: fixed;
+  bottom: 0;
+  background: $background-color;
+  color: $text-color;
+  box-sizing: border-box;
+  z-index: 99;
+  min-width: 750px;
+  text-align: center;
+
+  @media screen and (max-width: 760px) {
+    width: calc(100% + 8px);
+    left: -8px;
+    min-width: unset;
+  }
+
+  > a {
+    color: $text_color;
+    display: block;
+    padding: 2em;
+    @media screen and (max-width: 760px) {
+      padding: 1em;
+    }
+    span {
+      color: $link-color;
+    }
+    &:hover {
+      span {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+@if $show-on-mobile == "false" {
+  .mobile-view {
+    .featured-topic-link-connector {
+      display: none;
+    }
+  }
+}
