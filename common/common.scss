@@ -5,15 +5,9 @@
   color: $text-color;
   box-sizing: border-box;
   z-index: 99;
-  min-width: 750px;
-  max-width: 1220px;
+  left: 0;
+  right: 0;
   text-align: center;
-
-  @media screen and (max-width: 760px) {
-    width: calc(100% + 8px);
-    left: -8px;
-    min-width: unset;
-  }
 
   > a {
     color: $text_color;
