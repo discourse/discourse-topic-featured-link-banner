@@ -13,12 +13,15 @@
     color: $text_color;
     display: block;
     padding: 2em;
+
     @media screen and (max-width: 760px) {
       padding: 1em;
     }
+
     span {
       color: $link-color;
     }
+
     &:hover {
       span {
         text-decoration: underline;
